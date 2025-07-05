@@ -97,7 +97,7 @@ def get_recommendations(user_id=None, book_title=None, model_type="SVD", top_n=5
 
     return "Please provide at least a user_id or book title."
 
-st.title("📚 Book Recommendation System")
+st.title("📚BookGenie🧞‍♂️")
 st.write("Provide a User ID and/or Book Title to get recommendations.")
 
 user_id_input = st.text_input("Enter User ID (optional):")
